@@ -1,5 +1,7 @@
 # PHP 2017 Advanced Test
 
+Do rozwiązania zadania wymagany jest Python z gałęzi 3.x.
+
 ## Zadanie
 
 W module `php` zdefiniowana została klasa `BaseCar`.
@@ -26,13 +28,13 @@ Możesz sprawdzić, czy Twój skrypt spełnia powyższe wymagania za pomocą nas
 Przykładowo, jeśli Twój plik z rozwiązaniem nazywa się `example_solution.py`, możesz uruchomić testy przy pomocy następującego polecenia:
 
 ```bash
-python test.py example_solution
+python3 test.py example_solution
 ```
 
 Pamiętaj, by nie podawać rozszerzenia pliku (`.py`). Jeśli wszystko zostało wykonane prawidłowo, powinieneś zobaczyć wynik podobny do poniższego:
 
 ```bash
-$ python test.py example_solution
+$ python3 test.py example_solution
 ..................
 ----------------------------------------------------------------------
 Ran 25 tests in 0.001s
